@@ -2,8 +2,62 @@ body{
     details{
         background-color: #98FF98;
     }
+    margin: 0;
+    padding: 0;
 
     h1{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+}
+
+header{
+    padding: 8em;
+    display: flex;
+    justify-content: center;
+    /*hier komt de achtergrond*/
+    background-image: url(Kruidenthee-het-geheim-van-een-lang-en-gezond-leven.jpg);
+}
+
+h1{
+    color: white;
+    background-color: black;
+    padding: 1em 2em 1em 2em;
+}
+
+section{
+    /*grids*/
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+h2{
+    grid-column-start: 2;
+    font-size: 4em;
+}
+
+article{
+    grid-column-start: 2;
+    margin: 1em;
+}
+
+details{
+    padding: 4em;
+}
+
+summary{
+    list-style-position:outside;
+    margin-left: 1em;
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 2.5em;
 }
